@@ -4,7 +4,7 @@ from django.shortcuts import render
 from islands import models
 
 
-def get_islands(request: HttpRequest) -> HttpResponse:
+def get_islands(request):
     islands: list[models.Island] = list(models.Island.objects.all())
 
     context = {

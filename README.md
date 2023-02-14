@@ -3,7 +3,7 @@ Time to purchase some islands!
 ## Setup
 
 1. Fork and clone [this repository](https://github.com/malthunayan/TASK-Django-M11-Files-II).
-2. Install the `requirements` using `pip install -r requirements/dev.lock`.
+2. Install the `requirements` using `pip install -r requirements.txt`.
 3. Run the `migrations`.
 
 ## Task
